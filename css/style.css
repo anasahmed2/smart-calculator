@@ -1,0 +1,361 @@
+body {
+    background-image: url(../images/watch-backgroung-images.png);
+    background-color: rgb(20, 62, 90);
+    color: #e6dddd;
+    font-family: 'DS-Digital', sans-serif;
+    width: 100%;
+    height: 100vh;
+    color: #b0c8c2;
+    margin: 0;
+}
+
+
+.main {
+    text-align: center;
+
+}
+
+h1 {
+    margin-top: 50px;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 2em;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+
+h1 span {
+    opacity: 0;
+    display: inline-block;
+    animation: animate 1s linear forwards;
+    -webkit-animation: animate 1s linear forwards;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0px);
+
+    }
+}
+
+h1 span:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+h1 span:nth-child(2) {
+    animation-delay: 1.5s;
+}
+
+h1 span:nth-child(3) {
+    animation-delay: 2s;
+}
+
+h1 span:nth-child(4) {
+    animation-delay: 2.5s;
+}
+
+h1 span:nth-child(5) {
+    animation-delay: 3S;
+}
+
+h1 span:nth-child(6) {
+    animation-delay: 3.5s;
+}
+
+h1 span:nth-child(7) {
+    animation-delay: 4s;
+}
+
+h1 span:nth-child(8) {
+    animation-delay: 4.5s;
+}
+
+h1 span:nth-child(9) {
+    animation-delay: 5s;
+}
+
+h1 span:nth-child(10) {
+    animation-delay: 5.5s;
+}
+
+
+.cal_design {
+    border: 4px solid black;
+    width: 294px;
+    height: 550px;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+
+.desgin1{
+    position: absolute;
+    top: 7px;
+    left: 117px;
+    width: 60px;
+    height: 7px;
+    background-color: #2ec4b6;
+    border-radius: 5px;
+
+}
+
+.ongoing{
+    background: transparent;
+    text-align: right;
+    color: #2ec4b6;
+    position: absolute;
+    font-size: 30px;
+    top: 46px;
+    left: 4px;
+    border: none;
+    outline: none;
+    width: 283px;
+    height: 40px;
+}
+
+.input {
+    background: transparent;
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    font-size: 45px;
+    top: 88px;
+    left: 4px;
+    border: none;
+    outline: none;
+    width: 283px;
+    height: 80px;
+}
+
+
+.btn-color1 {
+    border-radius: 5px;
+    background-color: #071417;
+    color: #fff;
+    font-size: 20px;
+    width: 71px;
+    height: 71px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-color1:hover {
+    background-color: #042527;
+    box-shadow: 2px 2px 10px #000202;
+}
+
+.btn-color1:active {
+    color: black;
+}
+
+.btn-color2 {
+    border-radius: 4px;
+    background-color: #0b4043;
+    color: #fff;
+    font-size: 29px;
+    width: 71px;
+    height: 71px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-color2:hover {
+    background-color: #042527;
+    box-shadow: 2px 2px 10px #000202;
+}
+
+.btn-color2:active {
+    color: black;
+}
+
+
+.btn-color3 {
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    /* background-color: #041c1d; */
+    background: linear-gradient(56deg, rgba(23,116,108,1) 0%, rgba(15,111,103,1) 36%, rgba(10,87,81,1) 66%, rgba(11,64,67,1) 100%);
+
+    font-size: 22px;
+    width: 71px;
+    height: 71px;
+    cursor: pointer;
+}
+
+.btn-color3:hover {
+
+    background-color: #042527;
+    box-shadow: 2px 2px 10px #042527;
+}
+
+.btn-color3:active {
+    color: black;
+}
+
+
+/* first raw */
+.btn_c {
+    position: absolute;
+    top: 175px;
+    left: 2px;
+}
+
+.btn_ac {
+    position: absolute;
+    top: 175px;
+    left: 75px;
+
+}
+
+.btn_per {
+    position: absolute;
+    top: 175px;
+    left: 148px;
+}
+
+.btn_add {
+    position: absolute;
+    top: 175px;
+    right: 1px;
+}
+
+
+
+/* second raw */
+.btn_1 {
+    position: absolute;
+    top: 248px;
+    left: 2px;
+}
+
+.btn_2 {
+    position: absolute;
+    top: 248px;
+    left: 75px;
+}
+
+
+.btn_3 {
+    position: absolute;
+    top: 248px;
+    left: 148px;
+}
+
+.btn_sub {
+    position: absolute;
+    top: 248px;
+    right: 1px;
+}
+
+
+
+
+/* third raw  */
+.btn_4 {
+    position: absolute;
+    top: 321px;
+    left: 2px;
+}
+
+.btn_5 {
+    position: absolute;
+    top: 321px;
+    left: 75px;
+}
+
+.btn_6 {
+    position: absolute;
+    top: 321px;
+    left: 148px;
+}
+
+.btn_mult {
+    position: absolute;
+    top: 321px;
+    right: 1px;
+}
+
+
+
+
+/* forth raw  */
+.btn_7 {
+    position: absolute;
+    top: 394px;
+    left: 2px;
+}
+
+.btn_8 {
+    position: absolute;
+    top: 394px;
+    left: 75px;
+}
+
+.btn_9 {
+    position: absolute;
+    top: 394px;
+    left: 148px;
+}
+
+.btn_divide {
+    position: absolute;
+    top: 394px;
+    right: 1px;
+}
+
+.btn_0 {
+    position: absolute;
+    top: 467px;
+    left: 2px;
+}
+
+.btn_point {
+    position: absolute;
+    top: 467px;
+    left: 75px;
+}
+
+.btn_equal {
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(56deg, rgba(157,224,220,1) 10%, rgba(37,186,174,1) 51%, rgba(11,98,91,1) 96%);
+    width: 143px;
+    height: 68px;
+    position: absolute;
+    top: 467px;
+    right: 1px;
+    color: #fff;
+    font-size: 29px;
+    cursor: pointer;
+
+}
+
+.btn_equal:hover {
+    background-color: #22958a;
+    box-shadow: 2px 2px 10px #22958a;
+}
+
+.btn_equal:active {
+    color: black;
+}
+
+h6 {
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}

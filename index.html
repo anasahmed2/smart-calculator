@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="heading">
+            <h1>
+                <span>C</span>
+                <span>A</span>
+                <span>L</span>
+                <span>C</span>
+                <span>U</span>
+                <span>L</span>
+                <span>A</span>
+                <span>T</span>
+                <span>O</span>
+                <span>R</span>
+            </h1>
+        </div>
+        <div class="cal_design">
+            <span class="desgin1"></span>
+            <div class="inputs">
+                <input type="text" class="ongoing" id="ongoing" disabled>
+                <input type="text" class="input" id="input" disabled>
+            </div>
+            <div class="btns">
+                <!-- first raw -->
+                <button class="btn_c btn-color3" onclick="click_c()">C</button>
+                <button class="btn_ac btn-color3"onclick="click_ac()">AC</button>
+                <button class="btn_per btn-color1" onclick="click_modules()">%</button>
+                <button class="btn_add btn-color2" onclick="click_add()">+</button>
+                <!-- second raw -->
+                <button class="btn_1 btn-color1" onclick="click_1()"> 1</button>
+                <button class="btn_2 btn-color1" onclick="click_2()">2</button>
+                <button class="btn_3 btn-color1" onclick="click_3()">3</button>
+                <button class="btn_sub btn-color2" onclick="click_sub()">-</button>
+                <!-- third raw-->
+                <button class="btn_4 btn-color1" onclick="click_4()">4</button>
+                <button class="btn_5 btn-color1" onclick="click_5()">5</button>
+                <button class="btn_6 btn-color1" onclick="click_6()">6</button>
+                <button class="btn_mult btn-color2" onclick="click_multi()">x</button>
+                <!-- fouth raw -->
+                <button class="btn_7 btn-color1" onclick="click_1()">7</button>
+                <button class="btn_8 btn-color1" onclick="click_8()">8</button>
+                <button class="btn_9 btn-color1" onclick="click_9()">9</button>
+                <button class="btn_divide btn-color2" onclick="click_divid()">/</button>
+                <!-- fifth raw  -->
+                <button class="btn_0 btn-color1" onclick="click_0()">0</button>
+                <button class="btn_point btn-color1" onclick="click_point()">.</button>
+                <button class="btn_equal" onclick="click_equal()">=</button>
+            </div>
+        </div>
+        <div>
+            <h6>Copy right 2023 by MUHAMMAD ANAS AHMED © </h6>
+        </div>
+    </div>
+<script src="javascript/app.js"></script>
+</body>
+
+<!-- </html>
+<script src="owais.js"></script>
+<link rel="stylesheet" href="owais.css"> -->
